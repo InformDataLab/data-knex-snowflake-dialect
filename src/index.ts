@@ -144,7 +144,7 @@ export class SnowflakeDialect extends knex.Client {
 
   async validateConnection(connection: any): Promise<boolean> {
     if (connection) {
-      return true;
+      return await connection.isValidAsync();
     }
     return false;
   }
