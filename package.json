@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "snowflake-sdk": "1.6.23"
+    "snowflake-sdk": "^1.9.3"
   },
   "peerDependencies": {
     "knex": "^2.4.0"
